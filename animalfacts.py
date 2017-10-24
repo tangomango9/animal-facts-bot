@@ -316,6 +316,7 @@ def check_comment_for_animal(comment, reddit):
     botengine('snake', '\ssnakes?\s', reddit, SNAKE_FACTS, comment)
     botengine('starfish', '\sstarfish(es)?\s', reddit, STARFISH_FACTS, comment)
     botengine('tarantula', '\starantulas?\s', reddit, TARANTULA_FACTS, comment)
+    botengine('squid', '\ssquids?\s', reddit, SQUID_FACTS, comment)
     botengine('squirrel', '\ssquirrels?\s', reddit, SQUIRREL_FACTS, comment)
     botengine('stingray', '\sstingrays?\s', reddit, STINGRAY_FACTS, comment)
     botengine('sunfish', '\ssunfish(es)?\s', reddit, SUNFISH_FACTS, comment)
@@ -1996,6 +1997,18 @@ SQUIRREL_FACTS = (
     'Squirrels can rotate their ankles 180 degrees.',
     )
 
+SQUID_FACTS = (
+    'Each squid has three hearts.',
+    'Most squids have a life span that is only one year.',
+    'The Humboldt squid is known to attack sharks.',
+    'Some species of squids glow in teh dark.',
+    'Squids do not have an external shell like most mollusks, instead they have an internal one.',
+    'There are more than 300 known species of squid.'
+    'Some of the larger squid can weigh over 1000 pounds.'
+    'A lot of the smaller squid species are prey for a variety of ocean animals.',
+    'It is believed squid are highly intelligent.',
+    )    
+
 STINGRAY_FACTS = (
     'Stingrays are diverse group of fish characterized by flattened bodies.',
     'The largest species of stingray measure 6.5 feet in length and can weigh up to 790 pounds.',
@@ -2310,6 +2323,7 @@ ALL_FACTS = (
     SNAKE_FACTS,
     STARFISH_FACTS,
     SUNFISH_FACTS,
+    SQUID_FACTS
     SQUIRREL_FACTS,
     STINGRAY_FACTS,
     TARDIGRADE_FACTS,
